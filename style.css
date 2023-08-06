@@ -61,7 +61,7 @@ header nav ul {
 
 /* img under nav that spans across */
 .image-container {
-    background-image: url("./place\ holder\ grey.jpg");
+    background-image: url("place holder grey.png");
     height: 250px;
     background-size: cover;
     display: flex;
