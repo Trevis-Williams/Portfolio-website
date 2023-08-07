@@ -6,7 +6,8 @@
 ![Screenshot 2023-08-06 152434](https://github.com/Trevis-Williams/Portfolio-website/assets/135195221/df0e5624-9eb9-4b88-9c83-59ca9ae6b546)
 
 ## description
-This is a portfolio website used to show off my current and work to come!
+This digital showcase is a testament to my passion, creativity, and expertise in the world of design and development. Here, you'll find a carefully curated collection of my finest works, spanning across various disciplines and industries.
 
-## Help
+## Help 
+recived help from Joem Casusi
 
