@@ -1,5 +1,5 @@
 :root {
-  --color1: #3f3d3d; 
+  --color1: #534f4f; 
   --color2: #48b1b4;
   --color3: grey; 
 }
@@ -8,16 +8,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(236, 232, 232);
 }
 
 /*nav bar start */
 #trevis {
     color: var(--color1);
-    font-size: 45px;
+    font-size: 50px;
     background-color: var(--color2);
     padding-left: 1em;
     padding-right: 5px;
-    width: 15%;
+    width: 35%;
     margin-right: 40px;
 }
 
@@ -36,7 +37,7 @@ nav {
   }
   
   .nav-list li {
-    margin-right: 80px; /*Adding some space between the list items */
+    margin-right: 100px; /*Adding some space between the list items */
     text-align: right;
   }
   
@@ -74,7 +75,7 @@ header nav ul {
 
 figcaption {
     text-align: right;
-    background-color:#3f3d3d; 
+    background-color: var(--color1); 
     font-size: 35px;
     height: 45px;
     margin-right: 30px;
@@ -139,7 +140,7 @@ p {
     grid-gap: 1rem; /* Add some space between the images */
   }
   .grid-iteam {
-    padding: 10px;
+    padding: 5px;
     background-color: var(--color2);
     width: 682px;
     height: 225px;
@@ -158,7 +159,7 @@ p {
   .bigPicture {
     width: 1400px;
     height: 750px;
-    padding: 10px;
+    padding: 5px;
     margin-top: 5px;
     background-color: var(--color2);
   }
@@ -204,6 +205,7 @@ p {
     border-color: var(--color1);
     text-decoration: none;
     padding-bottom: 2px;
+    font-weight: 600;
   }
 
   footer li {
@@ -211,4 +213,7 @@ p {
     margin-right: 80px;
   }
 
+  footer a:hover {
+    color: #777373;
+  }
 
