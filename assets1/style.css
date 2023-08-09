@@ -37,7 +37,7 @@ nav {
   }
   
   .nav-list li {
-    margin-right: 100px; /*Adding some space between the list items */
+    margin-right: 80px; /*Adding some space between the list items */
     text-align: right;
   }
   
@@ -47,7 +47,7 @@ nav {
     font-size: 40px;
     text-decoration: none;
     padding-bottom: 3px;
-   font-weight: 600;
+    font-weight: 600;
   }
   
   .nav-list a:hover {
