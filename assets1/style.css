@@ -144,6 +144,7 @@ p {
     background-color: var(--color2);
     width: 682px;
     height: 225px;
+
   }
 
   .grid-iteam:hover {
@@ -157,7 +158,7 @@ p {
   }
 
   .bigPicture {
-    width: 1400px;
+    width: 1390px;
     height: 750px;
     padding: 5px;
     margin-top: 5px;
@@ -217,3 +218,8 @@ p {
     color: #777373;
   }
 
+/* media */
+
+@media screen(max-width: 800px) {
+  
+}
