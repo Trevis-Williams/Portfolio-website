@@ -122,35 +122,15 @@ p {
     display: flex;
 }
 
+
 .work {
     margin: 0 ; /* Remove default margin for the h1 element */
     padding-left: 2.47em;
     border-style: none solid none none;
     width: 136px;
     font-size: 40px;
-    height: 1340px;
     border-color: var(--color1);
     color: var(--color1);
-  }
-
-  .grid-container {
-    display: grid;
-    width: 800px;
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 1rem; /* Add some space between the images */
-  }
-  .grid-iteam {
-    padding: 5px;
-    background-color: var(--color2);
-    width: 682px;
-    height: 225px;
-
-  }
-
-  .grid-iteam:hover {
-    width: 690px;
-    height: 245px;
-    
   }
 
   .top {
@@ -220,6 +200,200 @@ p {
 
 /* media */
 
-@media screen(max-width: 800px) {
+
+
+@media screen and (max-width: 800px) {
+  .nav-list li {
+    margin-right: 20px; /* Reduce the margin for smaller screens */
+
+  }
+
+  .nav-list a {
+    font-size: 25px;
+  }
+
+
+  #trevis {
+    font-size: 25px;
+  }
+
+  /* Adjust the image container height for smaller screens */
+  .image-container {
+    height: 150px;
+  }
+
   
+  figcaption {
+    font-size: 28px;
+    padding: 5px;
+  }
+
+
+  .about-me {
+    font-size: 32px;
+    padding: 20px 10px 0px 40px;
+    height: 600px;
+  }
+
+  /* Adjust the font size and padding for paragraphs */
+  p {
+    font-size: 15px;
+    padding: 10px;
+    word-wrap: break-word; /* Allow long words to break onto the next line */
+    overflow-wrap: break-word; 
+    max-width: 30%; 
+  }
+
+  /* Adjust the font size and padding for the "Work" section */
+  .work {
+    font-size: 32px;
+    padding-left: 1.1em;
+    width: 100%;
+    height: 800px;
+  }
+
+
+  .card-2 {
+    flex-direction: row; 
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr; 
+    width: 100%; 
+    margin-left: 0; 
+  }
+  
+  .grid-iteam {
+    width: 100%; /* Make each image full width on smaller screens */
+    height: auto; /* Automatically adjust image height to maintain aspect ratio */
+    margin-bottom: 20px; /* Add some space between images */
+  }
+
+  /* Adjust the width and height of the big picture for smaller screens */
+  .bigPicture {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust the styles for the footer and contact information */
+  footer h1 {
+    font-size: 20px;
+    padding: 10px 5px 0 0;
+  }
+
+  footer a {
+    font-size: 12px;
+    padding-bottom: 1px;
+  }
+
 }
+
+
+/* Style for the caption container */
+.image-container2 {
+  background-image: url("Screenshot 2023-09-10 145753.png");
+  height: 750px;
+  width: 1500px;
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 200px;
+}
+
+.image-container2:hover {
+  transform: scale(1.1); /* Scale the item up by 10% on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create a 2x2 grid */
+  grid-gap: 10px; /* Adjust the gap between items */
+  margin-left: 300px;
+  padding-top: 10px;
+}
+
+.image-container3,
+.image-container4,
+.image-container5,
+.image-container6 {
+ 
+  height: 250px; /* Adjust the height as needed */
+  background-size: cover;
+  display: flex;
+  width: 745px;
+  background-position: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.card-2 {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid-container a {
+  text-decoration: none;
+}
+
+.image-container3 {
+  background-image: url("Screenshot 2023-09-10 171342.png");
+}
+
+.image-container4 {
+  background-image: url("Screenshot 2023-09-10 171643.png");
+}
+
+.image-container5 {
+  background-image: url("Screenshot 2023-09-10 171841.png");
+}
+
+.image-container6{
+  background-image: url('place holder grey.png');
+}
+#header-content {
+  display: flex;
+  background-color: var(--color2);
+  width: 225px;
+  height: 100px;
+}
+
+#myimg{
+  height: 90px;
+  width:100px ;
+  padding-right: 10px;
+ padding-top: 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.image-container3:hover {
+  transform: scale(1.1); /* Scale the item up by 10% on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.image-container4:hover {
+  transform: scale(1.1); /* Scale the item up by 10% on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.image-container5:hover {
+  transform: scale(1.1); /* Scale the item up by 10% on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.image-container6:hover {
+  transform: scale(1.1); /* Scale the item up by 10% on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+
+
+
+
