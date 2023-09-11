@@ -1,16 +1,15 @@
 # Portfolio-website
 
 ## Screenshots
-![Screenshot 2023-08-07 182216](https://github.com/Trevis-Williams/Portfolio-website/assets/135195221/54308aec-92cd-4c18-8b2d-bf28a20d5236)
-![Screenshot 2023-08-07 182205](https://github.com/Trevis-Williams/Portfolio-website/assets/135195221/b3e402d0-c779-4252-9443-562ab0a7c2f1)
-![Screenshot 2023-08-07 182147](https://github.com/Trevis-Williams/Portfolio-website/assets/135195221/26ac82f2-062f-418e-8d2d-e8ad0d7ea6de)
-
+![Screenshot 2023-09-10 175039](https://github.com/Trevis-Williams/Code-Refactor-Homework/assets/135195221/49867bc8-19e9-423f-9b62-29c9b871187b)
+![Screenshot 2023-09-10 175019](https://github.com/Trevis-Williams/Code-Refactor-Homework/assets/135195221/ee90dc78-e462-4e46-b25a-b4a80eb4b9d5)
+![Screenshot 2023-09-10 175030](https://github.com/Trevis-Williams/Code-Refactor-Homework/assets/135195221/18e34976-8c0e-429a-8e23-dc1cd805a3e9)
 
 ## description
 This digital showcase is a testament to my passion, creativity, and expertise in the world of design and development. Here, you'll find a carefully curated collection of my finest works, spanning across various disciplines and industries.
 
 ## Deployed Website
-https://trevis-williams.github.io/Portfolio-website/ 
+https://trevis-williams.github.io/Portfolio-website/
 
 
 ## Help 
