@@ -10,24 +10,40 @@
 
 
 <body>
-    <header>
+    <header class="header-slide-down">
         <nav>
-            <div id="header-content">
-                <h1>Trevis Williams</h1>
-                <img id="myimg" src="assets1\IMG_E5361.JPG">
+            <div class="header-content">
+                <h1 class="Trevis">Trevis Williams</h1>
+                <img class="myimg" src="assets1\IMG_E5361.JPG">
             </div>
             <ul class="nav-list">
-                <li class="all" ><a href="#aboutme">About Me</a></li>
-                <li class="all" ><a href="#work">Work</a></li>
-                <li class="all" ><a href="#ContactMe">Contact Me</a></li>
-                <li class="all" ><a href="#work">Resume</a></li>
+                <li class="all">
+                  <a href="#" data-replace="About Me">
+                    <span>About Me</span>
+                  </a>
+                </li>
+                <li class="all">
+                  <a href="#" data-replace="Work">
+                    <span>Work</span>
+                  </a>
+                </li>
+                <li class="all">
+                  <a href="#" id="contact-link" data-replace="Contact Me" onclick="toggleContactForm()">
+                    <span>Contact Me</span>
+                  </a>
+                </li>
+                <li class="all">
+                  <a href="#" data-replace="Resume">
+                    <span>Resume</span>
+                  </a>
+                </li>
             </ul>
         </nav>
     </header>
 
 
 <section class="image-container">   
-    <figcaption>Check out my work </figcaption>
+    <figcaption>Coming soon</figcaption>
 </section>
 
 <main>
@@ -72,7 +88,7 @@
             </a>
             <a href="">
             <section class="image-container6">
-                <figcaption>coming soon</figcaption>
+                <figcaption>Interatiive website NOT DONE</figcaption>
             </section>
             </a>
         </section>
@@ -80,16 +96,45 @@
 </section>
 </main>
 
-<footer id="ContactMe">
+<footer id="contact-me-section" class="ContactMe">
     <h1 >Contact <br>me</h1>
-    <ul class="footer">
-        <li id="number" class="contactInfo"><a href="https://github.com/Trevis-Williams">541-408-8460</a></li>
-        <li id="email" class="contactInfo"><a href="mailto:Rst1426@gmail.com">Rst1426@gmail.com</a></li>
-        <li id="github" class="contactInfo"><a href="https://github.com/Trevis-Williams">GitHub</a></li>
-        <li id="twitter" class="contactInfo"><a href="https://twitter.com/">Twitter</a></li>
-    </ul>
+    <ul class="nav-list">
+        <li class="contactInfo" >
+            <a href="tel:541-408-8460" data-replace="541-408-8460" class="phone-number">
+            <span>541-408-8460</span>
+          </a>
+        </li>
+        <li class="contactInfo">
+          <a href="mailto:Rst1426@gmail.com" data-replace="Rst1426@gmail.com">
+            <span>Rst1426@gmail.com</span>
+          </a>
+        </li>
+        <li class="contactInfo">
+          <a href="https://github.com/Trevis-Williams" data-replace="GitHub">
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li class="contactInfo">
+          <a href="https://twitter.com/" data-replace="Twitter" >
+            <span>Twitter</span>
+          </a>
+        </li>
+      </ul>
 </footer>
+<div id="contact-form" style="display: none;">
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
 
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
 
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<script src="./assets1/script.js"></script>
 </body>
 </html>
