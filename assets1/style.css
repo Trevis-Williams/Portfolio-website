@@ -126,7 +126,7 @@ header nav ul {
 
 /* img under nav that spans across */
 .image-container {
-    background-image: url("place holder grey.png");
+    background-image: url("./forest\ pic.jpg");
     height: 250px;
     background-size: cover;
     display: flex;
@@ -266,7 +266,7 @@ p {
 
 /* Style for the caption container */
 .image-container2 {
-  background-image: url("Screenshot 2023-09-10 145753.png");
+  background-image: url("./Moon\ website.PNG");
   height: 750px;
   width: 1500px;
   background-size: cover;
@@ -330,7 +330,7 @@ a {
 }
 
 .image-container6{
-  background-image: url('place holder grey.png');
+  background-image: url('./Screenshot\ 2023-09-10\ 145753.png');
 }
 
 .image-container3:hover {
