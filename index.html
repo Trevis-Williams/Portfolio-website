@@ -1,135 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets1\style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="assets1\style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 
 
 <body>
-    <header class="header-slide-down">
-        <nav>
-            <div class="header-content">
-                <h1 class="Trevis">Trevis Williams</h1>
-                <img class="myimg" src="assets1\IMG_E5361.JPG">
-            </div>
-            <ul class="nav-list">
-                <li class="all">
-                  <a href="#work" data-replace="Work">
-                    <span>Work</span>
-                  </a>
-                </li>
-                <li class="all">
-                  <a href="#" id="contact-link" data-replace="Contact Me" onclick="toggleContactForm()">
-                    <span>Contact Me</span>
-                  </a>
-                </li>
-                <li class="all">
-                  <a href="path/to/your.pdf" data-replace="Resume" download="your-resume.pdf">
-                    <span>Resume</span>
-                  </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-
-<section class="image-container">   
-    <figcaption>Coming soon</figcaption>
-</section>
-
-<main>
-<section class="card1" id="aboutme">  
-        <aside>
-            <h1 class="about-me">About <br>Me</h1>
-        </aside>
-        <article class="midPara">
-            <p>Lorem ipsum dolor sit amet. Qui magni architecto sit quia vero eum impedit nostrum At delectus accusamus ut quasi sint. Ex itaque adipisci est adipisci aperiam et accusamus error. Quo consectetur quis eos quisquam dignissimos sit ipsum voluptates aut blanditiis veritatis ut corporis voluptatem et error illo. Et totam enim vel deleniti iste eum illo fugit non minus voluptas et consectetur provident vel odio autem in modi error? Lorem ipsum dolor sit amet. Eum illum error ea atque temporibus qui excepturi asperiores aut sunt sunt id rerum quia et placeat modi? Rem galisum officia qui repellat perspiciatis aut nisi quibusdam At adipisci neque qui quod deserunt. Vel deleniti omnis aut quam exercitationem et odit sequi. Et dolorem internos ut autem illo id sunt aperiam? Ut voluptatem placeat ut voluptate provident non explicabo veniam ut voluptate facere. Et ratione molestiae qui dolor impedit ut ullam illo. Nam quis expedita vel repellat quas ea animi aspernatur.</p>
-            <p>Et sunt nostrum ut culpa corporis quo fugiat perferendis et nobis dignissimos non ipsum porro eum dignissimos quia qui quas nihil. Non voluptate quos nam esse sint et nesciunt distinctio At dolorem saepe ea consequuntur officiis ut aspernatur Lorem ipsum dolor sit amet. Eum illum error ea atque temporibus qui excepturi asperiores aut sunt sunt id rerum quia et placeat modi? Rem galisum officia qui repellat perspiciatis aut nisi quibusdam At adipisci neque qui quod deserunt. Vel deleniti omnis aut quam exercitationem et odit sequi. Et dolorem internos ut autem illo id sunt aperiam?Ut voluptatem placeat ut voluptate provident non explicabo veniam ut voluptate facere. Et ratione molestiae qui dolor impedit ut ullam illo. Nam quis expedita vel repellat quas ea animi aspernatur.</p>
-        </article>        
-</section>
-
-<section class="card-2" id="work">
-    <section class="test">
-        <aside>
-            <h1 class="work">Work</h1>
-        </aside>
-        <section class="top">
-            <a href="https://trevis-williams.github.io/Space-interactive-website/">
-            <section class="image-container2">
-                <figcaption>Interative website NOT DONE</figcaption>
-            </section>
-            </a>
-        </section>
-    
-        <section class="grid-container">
-            <a href="https://trevis-williams.github.io/What-is-code-quiz/">
-            <section class="image-container3">
-                <figcaption>The Coding Quiz!</figcaption>
-            </section>
-            </a>
-            <a href="https://trevis-williams.github.io/Trevis-Password-Generator/">    
-            <section class="image-container4">
-                <figcaption>Generate A Password!</figcaption>
-            </section>
-            </a>
-            <a href="https://trevis-williams.github.io/Trevis-s-Work-Day-Scheduler/">
-            <section class="image-container5">
-                <figcaption>Plan your day!</figcaption>
-            </section>
-            </a>
-            <a href="">
-            <section class="image-container6">
-                <figcaption>Live local group project!</figcaption>
-            </section>
-            </a>
-        </section>
-    </section>
-</section>
-</main>
-
-<footer id="contact-me-section" class="ContactMe">
-    <h1 >Contact <br>me</h1>
-    <ul class="nav-list">
-        <li class="contactInfo" >
-            <a href="tel:541-408-8460" data-replace="541-408-8460" class="phone-number">
-            <span>541-408-8460</span>
+  <header class="header-slide-down">
+    <nav>
+      <div class="header-content">
+        <h1 class="Trevis">Trevis Williams</h1>
+        <img class="myimg" src="assets1\IMG_E5361.JPG">
+      </div>
+      <ul class="nav-list">
+        <li class="all">
+          <a href="#work" data-replace="Work">
+            <span>Work</span>
           </a>
         </li>
-        <li class="contactInfo">
-          <a href="mailto:Rst1426@gmail.com" data-replace="Rst1426@gmail.com">
-            <span>Rst1426@gmail.com</span>
+        <li class="all">
+          <a href="#" id="contact-link" data-replace="Contact Me" onclick="toggleContactForm()">
+            <span>Contact Me</span>
           </a>
         </li>
-        <li class="contactInfo">
-          <a href="https://github.com/Trevis-Williams" data-replace="GitHub">
-            <span>GitHub</span>
-          </a>
-        </li>
-        <li class="contactInfo">
-          <a href="https://twitter.com/" data-replace="Twitter" >
-            <span>Twitter</span>
+        <li class="all">
+          <a href="path/to/your.pdf" data-replace="Resume" download="your-resume.pdf">
+            <span>Resume</span>
           </a>
         </li>
       </ul>
-</footer>
-<div id="contact-form" style="display: none;">
-  <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Your Name" required>
-    
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    </nav>
+  </header>
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
 
-    <button type="submit" id="submit-button">Submit</button>
-  </form>
-</div>
-<script src="./assets1/script.js"></script>
+  <section class="image-container">
+    <figcaption>Coming soon</figcaption>
+  </section>
+
+  <main>
+    <section class="card1" id="aboutme">
+      <aside>
+        <h1 class="about-me">About <br>Me</h1>
+      </aside>
+      <article class="midPara">
+        <p>Lorem ipsum dolor sit amet. Qui magni architecto sit quia vero eum impedit nostrum At delectus accusamus ut
+          quasi sint. Ex itaque adipisci est adipisci aperiam et accusamus error. Quo consectetur quis eos quisquam
+          dignissimos sit ipsum voluptates aut blanditiis veritatis ut corporis voluptatem et error illo. Et totam enim
+          vel deleniti iste eum illo fugit non minus voluptas et consectetur provident vel odio autem in modi error?
+          Lorem ipsum dolor sit amet. Eum illum error ea atque temporibus qui excepturi asperiores aut sunt sunt id
+          rerum quia et placeat modi? Rem galisum officia qui repellat perspiciatis aut nisi quibusdam At adipisci neque
+          qui quod deserunt. Vel deleniti omnis aut quam exercitationem et odit sequi. Et dolorem internos ut autem illo
+          id sunt aperiam? Ut voluptatem placeat ut voluptate provident non explicabo veniam ut voluptate facere. Et
+          ratione molestiae qui dolor impedit ut ullam illo. Nam quis expedita vel repellat quas ea animi aspernatur.
+        </p>
+        <p>Et sunt nostrum ut culpa corporis quo fugiat perferendis et nobis dignissimos non ipsum porro eum dignissimos
+          quia qui quas nihil. Non voluptate quos nam esse sint et nesciunt distinctio At dolorem saepe ea consequuntur
+          officiis ut aspernatur Lorem ipsum dolor sit amet. Eum illum error ea atque temporibus qui excepturi
+          asperiores aut sunt sunt id rerum quia et placeat modi? Rem galisum officia qui repellat perspiciatis aut nisi
+          quibusdam At adipisci neque qui quod deserunt. Vel deleniti omnis aut quam exercitationem et odit sequi. Et
+          dolorem internos ut autem illo id sunt aperiam?Ut voluptatem placeat ut voluptate provident non explicabo
+          veniam ut voluptate facere. Et ratione molestiae qui dolor impedit ut ullam illo. Nam quis expedita vel
+          repellat quas ea animi aspernatur.</p>
+      </article>
+    </section>
+
+    <section class="card-2" id="work">
+      <section class="test">
+        <aside>
+          <h1 class="work">Work</h1>
+        </aside>
+        <section class="top">
+          <a href="https://trevis-williams.github.io/Space-interactive-website/">
+            <section class="image-container2">
+              <figcaption>Interative website NOT DONE</figcaption>
+            </section>
+          </a>
+        </section>
+
+        <section class="grid-container">
+          <a href="https://trevis-williams.github.io/What-is-code-quiz/">
+            <section class="image-container3">
+              <figcaption>The Coding Quiz!</figcaption>
+            </section>
+          </a>
+          <a href="https://trevis-williams.github.io/Trevis-Password-Generator/">
+            <section class="image-container4">
+              <figcaption>Generate A Password!</figcaption>
+            </section>
+          </a>
+          <a href="https://trevis-williams.github.io/Trevis-s-Work-Day-Scheduler/">
+            <section class="image-container5">
+              <figcaption>Plan your day!</figcaption>
+            </section>
+          </a>
+          <a href="">
+            <section class="image-container6">
+              <figcaption>Live local group project!</figcaption>
+            </section>
+          </a>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <footer id="contact-me-section" class="ContactMe">
+    <h1>Contact <br>me</h1>
+    <ul class="nav-list">
+      <li class="contactInfo">
+        <a href="tel:541-408-8460" data-replace="541-408-8460" class="phone-number">
+          <span>541-408-8460</span>
+        </a>
+      </li>
+      <li class="contactInfo">
+        <a href="mailto:Rst1426@gmail.com" data-replace="Rst1426@gmail.com">
+          <span>Rst1426@gmail.com</span>
+        </a>
+      </li>
+      <li class="contactInfo">
+        <a href="https://github.com/Trevis-Williams" data-replace="GitHub">
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li class="contactInfo">
+        <a href="https://twitter.com/" data-replace="Twitter">
+          <span>Twitter</span>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <div id="contact-form" style="display: none;">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+  </div>
+
+  <div class="success-alert"  style="display: none;">
+    <div class="content">
+      <div class="icon">
+        <svg width="50" height="50" id="Layer_1" style="enable-background:new 0 0 128 128;" version="1.1"
+          viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g>
+            <circle fill="#fff" cx="64" cy="64" r="64" />
+          </g>
+          <g>
+            <path fill="#3EBD61"
+              d="M54.3,97.2L24.8,67.7c-0.4-0.4-0.4-1,0-1.4l8.5-8.5c0.4-0.4,1-0.4,1.4,0L55,78.1l38.2-38.2   c0.4-0.4,1-0.4,1.4,0l8.5,8.5c0.4,0.4,0.4,1,0,1.4L55.7,97.2C55.3,97.6,54.7,97.6,54.3,97.2z" />
+          </g>
+        </svg>
+      </div>
+      <p class="i-will-be-contact">I will Be in contact</p>
+    </div>
+    <button class="close">
+      <svg height="18px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"
+        width="18px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path fill="#69727D"
+          d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z" />
+      </svg>
+    </button>
+  </div>
+
+  <script src="./assets1/script.js"></script>
+
 </body>
+
 </html>

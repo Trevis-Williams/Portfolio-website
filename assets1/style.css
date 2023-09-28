@@ -402,12 +402,93 @@ button[type="submit"]:hover {
 }
 
 
+.close{
+  background-color: transparent;
+  border:none;
+  outline:none;
+  transition:all 0.2s ease-in-out;
+  padding: 0.75rem;
+  border-radius:0.5rem;
+  cursor:pointer;
+  position: relative;
+  top: -41px;
+  left:90%;
+}
+.close:hover{
+  background-color: #fff;
+}
 
 
+.alert{
+  display: flex;
+  align-items:center;
+  padding: 0.55rem 0.65rem 0.55rem 0.75rem;
+  border-radius:1rem;
+  min-width:400px;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  box-shadow:
+  0px 3.2px 13.8px rgba(0, 0, 0, 0.02),
+  0px 7.6px 33.3px rgba(0, 0, 0, 0.028),
+  0px 14.4px 62.6px rgba(0, 0, 0, 0.035),
+  0px 25.7px 111.7px rgba(0, 0, 0, 0.042),
+  0px 48px 208.9px rgba(0, 0, 0, 0.05),
+  0px 115px 500px rgba(0, 0, 0, 0.07)
+}
+.content{
+  display: flex;
+  align-items:center;
+  width: 700px;
+}
+.icon{
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius:39% 61% 42% 58% / 50% 51% 49% 50%;
+  box-shadow:
+  0px 3.2px 13.8px rgba(0, 0, 0, 0.02),
+  0px 7.6px 33.3px rgba(0, 0, 0, 0.028),
+  0px 14.4px 62.6px rgba(0, 0, 0, 0.035),
+  0px 25.7px 111.7px rgba(0, 0, 0, 0.042),
+  0px 48px 208.9px rgba(0, 0, 0, 0.05),
+  0px 115px 500px rgba(0, 0, 0, 0.07),
 
+}
 
+.i-will-be-contact{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: -300px;
+  width: 400px;
+}
 
+.success-alert {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  background-color: lightgreen;
+  transform: translateX(-50%);
+ 
+  padding: 8px 16px; /* Adjust padding to make it smaller */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px; /* Adjust the width to content */
+  z-index: 9999; /* Make sure it's on top of other elements */
+  border-radius: 1rem; /* Add this line for rounded corners */
+  
+  font-size: 14px; /* Adjust the font size */
+}
 
+.success-alert .close {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+/* Optional: Styling for the close button icon */
 
 
 
