@@ -22,10 +22,12 @@ body {
   font-size: 25px;
  
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
 .Trevis {
   margin-top: 10px;
   margin-right: 10px;
+  font-family: 'Roboto Slab', serif;
 }
 
 #myimg {
@@ -37,9 +39,9 @@ body {
   border-style: solid none solid solid;
   border-radius: 10px 0px 0px 10px;
 }
-.header-slide-down{
-animation:slideDown 1 ;
-}
+
+
+
 
 nav {
   background-color: var(--color1);
@@ -47,6 +49,7 @@ nav {
  position: fixed ;
  z-index: 20;
  width: 100%;
+ animation: slideDown 0.8s ease forwards;
 }
 
 .nav-list a {
@@ -60,6 +63,7 @@ nav {
   font-weight: 600;
   margin-right: 120px;
   margin-left: 0px;
+  font-family: 'Roboto Slab', serif;
 }
   .nav-list {
     list-style: none;
@@ -147,6 +151,7 @@ figcaption {
     color: var(--color2);
     margin-bottom: 20PX;
     font-weight: 600;
+    font-family: 'Roboto Slab', serif;
 }
 /* img under nav that spans across */
 
@@ -161,18 +166,18 @@ figcaption {
 .about-me {
     font-size: 40px;
     border-style: none solid none none;
-    height: 280px;
-   
+    height: 220px;
     border-color: var(--color1);
     color:var(--color1) ;
    position: absolute;
-   top: 320px;
-    left: 80px;
+   top: 350px;
+    left: 90px;
     padding-right: 20px;
     z-index: 10;
-    animation: slideDownBorder 0.4s cubic-bezier(0.76, 0, 0.24, 1) forwards; /* Apply the animation */
+    font-family: 'Roboto Slab', serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 p {
     font-size: 24px;
   position: block;
@@ -180,7 +185,13 @@ p {
     color: var(--color1);
     line-height: 1.3;
     width: 1390px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 1.0s forwards;
+    font-family: 'Mukta', sans-serif;
 }
+
 /* about me section */
 
 
@@ -201,6 +212,7 @@ p {
     color: var(--color1);
     z-index: 10;
     animation: slideDownBorderWork 0.5s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+    font-family: 'Roboto Slab', serif;
   }
 
   .top {
@@ -243,7 +255,7 @@ p {
    border-style:none solid none none ;
     height: 80px;
     width: 200px;
-
+    font-family: 'Roboto Slab', serif;
     padding: 10px 30px 20px 9px;
     font-size: 40px;
     text-align: right;
@@ -255,6 +267,7 @@ p {
     text-decoration: none;
     padding-bottom: 2px;
     font-weight: 600;
+    font-family: 'Roboto Slab', serif;
   }
 
   footer li {
@@ -495,48 +508,41 @@ button[type="submit"]:hover {
 /* Key Frames */
 
 
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%); /* Start above the viewport */
-  }
-  100% {
-    transform: translateY(0%); 
-  }
-}
+
 
 @keyframes slideDownBorder {
   0% {
     height: 0;
   }
   10% {
-    height: 40px;
+    height: 20px;
   }
   20% {
-    height: 80px;
+    height: 60px;
   }
   30% {
-    height: 120px;
+    height: 80px;
   }
   40% {
-    height: 160px;
+    height: 100px;
   }
   50% {
-    height: 200px;
+    height: 120px;
   }
   60% {
-    height: 220px;
+    height: 140px;
   }
   70% {
-    height: 240px;
+    height: 160px;
   }
   80% {
-    height: 260px;
+    height: 180px;
   }
   90% {
-    height: 275px;
+    height: 200px;
   }
   100% {
-    height: 280px;
+    height: 220px;
   }
 }
 
@@ -575,9 +581,29 @@ button[type="submit"]:hover {
     height: 1100px;
   }
   100% {
-    height: 1150px;
+    height: 1350px;
   }
 }
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%); /* Start from above the viewport */
+  }
+  to {
+    transform: translateY(0); /* Slide down to its original position */
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 
 /* media */
