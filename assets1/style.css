@@ -211,7 +211,7 @@ p {
     border-style: none solid none none ;
     position: absolute;
     width: 136px;
-    height: 300px;
+    height: 1200px;
     font-size: 40px;
     border-color: var(--color1);
     color: var(--color1);
@@ -586,7 +586,7 @@ button[type="submit"]:hover {
     height: 1100px;
   }
   100% {
-    height: 1350px;
+    height: 1320px;
   }
 }
 
