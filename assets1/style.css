@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 :root {
   --color1: #534f4f; 
   --color2: #48b1b4;
@@ -22,13 +24,15 @@ body {
   font-size: 25px;
  
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
 
 .Trevis {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right: 10px;
   font-family: 'Roboto Slab', serif;
 }
+
+
 
 #myimg {
   width: 100%;
@@ -163,21 +167,22 @@ figcaption {
     text-align: center;
   }
 
-.about-me {
+  .about-me {
     font-size: 40px;
     border-style: none solid none none;
     height: 220px;
     border-color: var(--color1);
-    color:var(--color1) ;
-   position: absolute;
-   top: 350px;
-    left: 90px;
+    color: var(--color1);
+    position: absolute;
+    top: 350px;
+    left: 82px;
     padding-right: 20px;
     z-index: 10;
     font-family: 'Roboto Slab', serif;
-}
+    animation: slideDownBorder 0.5s; 
+  }
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
 p {
     font-size: 24px;
   position: block;
