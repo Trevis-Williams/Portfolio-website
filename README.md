@@ -1,8 +1,8 @@
 # Portfolio-website
 
 ## Screenshots
-![port screen new 1](https://github.com/Trevis-Williams/Trevis-portfolio-Website/assets/135195221/e65cd315-619c-4408-b69e-fd61e79aad13)
-![port screen shot 2](https://github.com/Trevis-Williams/Trevis-portfolio-Website/assets/135195221/be7b053f-c655-4509-870f-2beb5822b0b5)
+![portn new new](https://github.com/Trevis-Williams/Trevis-portfolio-Website/assets/135195221/4ebb21dc-c6c5-4be2-ae16-980887b022ae)
+![portn new new 2](https://github.com/Trevis-Williams/Trevis-portfolio-Website/assets/135195221/1a9beaa9-c75b-48ed-8d11-7ebcc3fa5322)
 ![port screen 1](https://github.com/Trevis-Williams/Space-interactive-website/assets/135195221/5b5ecf3f-d221-49b5-aea7-410dc61c23bd)
 
 ## description
