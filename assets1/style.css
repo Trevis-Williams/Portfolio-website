@@ -615,7 +615,9 @@ button[type="submit"]:hover {
 
 
 
-@media screen and (max-width: 768px) {
+ @media screen  {
+
+
   .work {
     left:10px;
     top: 600px;
@@ -664,7 +666,7 @@ padding-top: 50px;
   left: 10px;
   padding-right: 20px;
   z-index: 10;
-  animation: slideDownBorder 0.4s cubic-bezier(0.76, 0, 0.24, 1) forwards; /* Apply the animation */
+  animation: slideDownBorder 0.4s cubic-bezier(0.76, 0, 0.24, 1) forwards; 
 }
 
 .image-container2 {
@@ -771,4 +773,4 @@ footer ul {
 }
 
 
-}
+} 
