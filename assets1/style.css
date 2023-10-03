@@ -336,7 +336,7 @@ a {
 }
 
 .image-container3 {
-  background-image: url("./new code quiz screen.PNG");
+  background-image: url("./nw code quiz screen shot finale.PNG");
 }
 
 .image-container4 {
@@ -744,19 +744,21 @@ footer a {
   text-decoration: none;
   padding-bottom: 2px;
   font-weight: 600;
-  
+  margin-left: 200px;
+  padding: 100px;
 }
 
 footer li {
   list-style: none;
   margin-right: 0px;
   position: relative;
-  left: 600px;
+  left: 00px;
+  padding-left: 100px;
+  position: absolute;
 }
 
 footer {
   display: flex;
-
   width: 100%;
 }
 
@@ -768,43 +770,5 @@ footer ul {
 
 }
 
-@keyframes slideDownBorderWork {
-  0% {
-    height: 0;
-  }
-  5% {
-    height: 20px;
-  }
-  10% {
-    height: 40px;
-  }
-  20% {
-    height: 80px;
-  }
-  30% {
-    height: 160px;
-  }
-  40% {
-    height: 320px;
-  }
-  50% {
-    height: 480px;
-  }
-  60% {
-    height: 640px;
-  }
-  70% {
-    height: 800px;
-  }
-  80% {
-    height: 960px;
-  }
-  90% {
-    height: 1100px;
-  }
-  100% {
-    height: 1280px;
-  }
-}
 
 }
