@@ -615,9 +615,8 @@ button[type="submit"]:hover {
 
 
 
- @media screen  {
-
-
+ @media screen and (max-width: 768px) {
+  
   .work {
     left:10px;
     top: 600px;
